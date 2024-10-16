@@ -1,0 +1,102 @@
+﻿@model FriendViewModel
+@{
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@attribute [IgnoreAntiforgeryToken]
+<div class="container px-4 py-4" id="view-friend">
+    <h2 class="pb-2 border-bottom">View details of a friend</h2>
+    <p>Below you find all the details of my friend. You can also modify the pets my friend has and the quotes he/she likes.</p>
+
+    <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-5">
+        <div class="col-md-7 col-lg-8">
+            <form class="needs-validation" novalidate>
+                <div class="row g-3">
+                    <div class="col-sm-6">
+                        <label for="firstName" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="firstName" value="@Model.CurrentFriend.FirstName" readonly>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label for="lastName" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="lastName" value="@Model.CurrentFriend.LastName" readonly>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" value="@Model.CurrentFriend.Email" readonly>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="birthday" class="form-label">Birthday</label>
+                        <input type="birthday" class="form-control" id="birthday" value="@Model.CurrentFriend.Birthday" readonly>
+                    </div>
+
+                    <div class="row g-3 visible">
+                        <div class="col-12">
+                            <label for="address" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="address" value="@Model.CurrentFriend.Address.StreetAddress" readonly>
+                        </div>
+
+                        <div class="col-md-3">
+                            <label for="zip" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="zip" value="@Model.CurrentFriend.Address.ZipCode" readonly>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label for="city" class="form-label">City</label>
+                            <input type="text" class="form-control" id="city" value="@Model.CurrentFriend.Address.City" readonly>
+                        </div>
+
+                        <div class="col-md-5">
+                            <label for="country" class="form-label">Country</label>
+                            <input type="text" class="form-control" id="country" value="@Model.CurrentFriend.Address.Country" readonly>
+                        </div>
+                    </div>
+                </div>
+
+                <a asp-controller="Uppgifter" asp-action="FriendInput" asp-route-id="@Model.CurrentFriend.FriendId" class="w-100 btn btn-primary btn-lg my-4">Edit friend details</a>
+            </form>
+        </div>
+
+
+        <div class="col-md-7 col-lg-8">
+            <h3 class="pb-2">
+                My friend's pets
+                <a asp-controller="Uppgifter" asp-action="PetInput" asp-route-friendId="@Model.CurrentFriend.FriendId" class="btn btn-success btn-sm" type="button">Add</a>
+            </h3>
+            @foreach (var item in Model.CurrentFriend.Pets)
+            {
+                <div class="row mb-2 text-center">
+                    <div class="col-md-10 themed-grid-col">@item.Name The @item.Mood @item.Kind</div>
+                    <div class="col-md-2 themed-grid-col">
+                        <a asp-controller="Uppgifter" asp-action="PetInput" asp-route-petId="@item.PetId" class="btn btn-secondary btn-sm" type="button">Edit</a>
+                        <a href="#modals" class="btn btn-danger btn-sm" type="button">Delete</a>
+                    </div>
+                </div>
+            }
+        </div>
+
+
+        <div class="col-md-7 col-lg-8">
+            <h3 class="pb-2">
+                My friend's favorite quotes
+                <a asp-controller="Uppgifter" asp-action="QuoteInput" asp-route-id="@Model.CurrentFriend.FriendId" class="btn btn-success btn-sm" type="button">Add</a>
+            </h3>
+
+            @foreach (var item in Model.CurrentFriend.Quotes)
+            {
+                <div class="row mb-2 text-center">
+                    <div class="col-md-10 themed-grid-col">
+                        @item.Quote
+                        <div class="col-md-16  text-end">@item.Author</div>
+                    </div>
+                    <div class="col-md-2 themed-grid-col">
+                        <a asp-controller="Uppgifter" asp-action="QuoteInput" asp-route-id2="@item.QuoteId" class="btn btn-secondary btn-sm" type="button">Edit</a>
+                        <a href="#modals" class="btn btn-danger btn-sm" type="button">Delete</a>
+                    </div>
+                </div>
+            }
+
+
+        </div>
+    </div>
+</div>

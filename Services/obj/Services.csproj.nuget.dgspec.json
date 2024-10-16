@@ -1,0 +1,534 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Services\\Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Configuration\\Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Configuration\\Configuration.csproj",
+        "projectName": "Configuration",
+        "projectPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Configuration\\Configuration.csproj",
+        "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "Azure.Security.KeyVault.Secrets": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbContext\\DbContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbContext\\DbContext.csproj",
+        "projectName": "DbContext",
+        "projectPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbContext\\DbContext.csproj",
+        "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbContext\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Configuration\\Configuration.csproj": {
+                "projectPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Configuration\\Configuration.csproj"
+              },
+              "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbModels\\DbModels.csproj": {
+                "projectPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbModels\\DbModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbModels\\DbModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbModels\\DbModels.csproj",
+        "projectName": "DbModels",
+        "projectPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbModels\\DbModels.csproj",
+        "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Configuration\\Configuration.csproj": {
+                "projectPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Configuration\\Configuration.csproj"
+              },
+              "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "EFCore.CheckConstraints": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbRepos\\DbRepos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbRepos\\DbRepos.csproj",
+        "projectName": "DbRepos",
+        "projectPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbRepos\\DbRepos.csproj",
+        "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbRepos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Configuration\\Configuration.csproj": {
+                "projectPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Configuration\\Configuration.csproj"
+              },
+              "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbContext\\DbContext.csproj": {
+                "projectPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbContext\\DbContext.csproj"
+              },
+              "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbModels\\DbModels.csproj": {
+                "projectPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbModels\\DbModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Configuration\\Configuration.csproj": {
+                "projectPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Configuration\\Configuration.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Configuration\\Configuration.csproj": {
+                "projectPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Configuration\\Configuration.csproj"
+              },
+              "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbContext\\DbContext.csproj": {
+                "projectPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbContext\\DbContext.csproj"
+              },
+              "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbModels\\DbModels.csproj": {
+                "projectPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbModels\\DbModels.csproj"
+              },
+              "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbRepos\\DbRepos.csproj": {
+                "projectPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbRepos\\DbRepos.csproj"
+              },
+              "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.IdentityModel.JsonWebTokens": {
+              "target": "Package",
+              "version": "[6.32.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

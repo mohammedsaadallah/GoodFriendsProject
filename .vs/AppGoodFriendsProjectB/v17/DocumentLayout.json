@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1E9029-BF15-49FD-8EB2-EBB29CC938F1}|Razor\\Razor.csproj|c:\\users\\moham\\onedrive\\skrivbord\\projektb-mohammedsaadallah\\razor\\pages\\shared\\uppgifter\\friendview.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1E9029-BF15-49FD-8EB2-EBB29CC938F1}|Razor\\Razor.csproj|solutionrelative:razor\\pages\\shared\\uppgifter\\friendview.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1E9029-BF15-49FD-8EB2-EBB29CC938F1}|Razor\\Razor.csproj|c:\\users\\moham\\onedrive\\skrivbord\\projektb-mohammedsaadallah\\razor\\pages\\shared\\uppgifter\\listoffriends.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1E9029-BF15-49FD-8EB2-EBB29CC938F1}|Razor\\Razor.csproj|solutionrelative:razor\\pages\\shared\\uppgifter\\listoffriends.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1E9029-BF15-49FD-8EB2-EBB29CC938F1}|Razor\\Razor.csproj|c:\\users\\moham\\onedrive\\skrivbord\\projektb-mohammedsaadallah\\razor\\pages\\shared\\uppgifter\\friendview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D1E9029-BF15-49FD-8EB2-EBB29CC938F1}|Razor\\Razor.csproj|solutionrelative:razor\\pages\\shared\\uppgifter\\friendview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1E9029-BF15-49FD-8EB2-EBB29CC938F1}|Razor\\Razor.csproj|c:\\users\\moham\\onedrive\\skrivbord\\projektb-mohammedsaadallah\\razor\\pages\\shared\\uppgifter\\listoffriends.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D1E9029-BF15-49FD-8EB2-EBB29CC938F1}|Razor\\Razor.csproj|solutionrelative:razor\\pages\\shared\\uppgifter\\listoffriends.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FFB113-35E1-4C1A-8CDE-103BC4E1DE41}|DbRepos\\DbRepos.csproj|c:\\users\\moham\\onedrive\\skrivbord\\projektb-mohammedsaadallah\\dbrepos\\csfriendsdbrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FFB113-35E1-4C1A-8CDE-103BC4E1DE41}|DbRepos\\DbRepos.csproj|solutionrelative:dbrepos\\csfriendsdbrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "csFriendsDbRepos.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbRepos\\csFriendsDbRepos.cs",
+              "RelativeDocumentMoniker": "DbRepos\\csFriendsDbRepos.cs",
+              "ToolTip": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\DbRepos\\csFriendsDbRepos.cs",
+              "RelativeToolTip": "DbRepos\\csFriendsDbRepos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJgBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T07:30:36.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListOfFriends.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Razor\\Pages\\Shared\\Uppgifter\\ListOfFriends.cshtml.cs",
+              "RelativeDocumentMoniker": "Razor\\Pages\\Shared\\Uppgifter\\ListOfFriends.cshtml.cs",
+              "ToolTip": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Razor\\Pages\\Shared\\Uppgifter\\ListOfFriends.cshtml.cs",
+              "RelativeToolTip": "Razor\\Pages\\Shared\\Uppgifter\\ListOfFriends.cshtml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T08:03:21.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListOfFriends.cshtml",
+              "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Razor\\Pages\\Shared\\Uppgifter\\ListOfFriends.cshtml",
+              "RelativeDocumentMoniker": "Razor\\Pages\\Shared\\Uppgifter\\ListOfFriends.cshtml",
+              "ToolTip": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Razor\\Pages\\Shared\\Uppgifter\\ListOfFriends.cshtml",
+              "RelativeToolTip": "Razor\\Pages\\Shared\\Uppgifter\\ListOfFriends.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAGQAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T08:03:20.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FriendView.cshtml",
+              "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Razor\\Pages\\Shared\\Uppgifter\\FriendView.cshtml",
+              "RelativeDocumentMoniker": "Razor\\Pages\\Shared\\Uppgifter\\FriendView.cshtml",
+              "ToolTip": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Razor\\Pages\\Shared\\Uppgifter\\FriendView.cshtml",
+              "RelativeToolTip": "Razor\\Pages\\Shared\\Uppgifter\\FriendView.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAWwHYAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T13:15:22.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FriendView.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Razor\\Pages\\Shared\\Uppgifter\\FriendView.cshtml.cs",
+              "RelativeDocumentMoniker": "Razor\\Pages\\Shared\\Uppgifter\\FriendView.cshtml.cs",
+              "ToolTip": "C:\\Users\\moham\\OneDrive\\Skrivbord\\ProjektB-MohammedSaadallah\\Razor\\Pages\\Shared\\Uppgifter\\FriendView.cshtml.cs",
+              "RelativeToolTip": "Razor\\Pages\\Shared\\Uppgifter\\FriendView.cshtml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwDEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T08:04:29.447Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

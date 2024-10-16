@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Razor
+build_property.RootNamespace = Razor
+build_property.ProjectDir = C:\Users\moham\OneDrive\Skrivbord\ProjektB-MohammedSaadallah\Razor\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\moham\OneDrive\Skrivbord\ProjektB-MohammedSaadallah\Razor
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/moham/OneDrive/Skrivbord/ProjektB-MohammedSaadallah/Razor/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/moham/OneDrive/Skrivbord/ProjektB-MohammedSaadallah/Razor/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/moham/OneDrive/Skrivbord/ProjektB-MohammedSaadallah/Razor/Pages/Shared/Uppgifter/FriendInput.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFVwcGdpZnRlclxGcmllbmRJbnB1dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/moham/OneDrive/Skrivbord/ProjektB-MohammedSaadallah/Razor/Pages/Shared/Uppgifter/FriendsByCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFVwcGdpZnRlclxGcmllbmRzQnlDaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/moham/OneDrive/Skrivbord/ProjektB-MohammedSaadallah/Razor/Pages/Shared/Uppgifter/FriendsByCountry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFVwcGdpZnRlclxGcmllbmRzQnlDb3VudHJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/moham/OneDrive/Skrivbord/ProjektB-MohammedSaadallah/Razor/Pages/Shared/Uppgifter/FriendView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFVwcGdpZnRlclxGcmllbmRWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/moham/OneDrive/Skrivbord/ProjektB-MohammedSaadallah/Razor/Pages/Shared/Uppgifter/ListOfFriends.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFVwcGdpZnRlclxMaXN0T2ZGcmllbmRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/moham/OneDrive/Skrivbord/ProjektB-MohammedSaadallah/Razor/Pages/Shared/Uppgifter/PetInputViewModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFVwcGdpZnRlclxQZXRJbnB1dFZpZXdNb2RlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/moham/OneDrive/Skrivbord/ProjektB-MohammedSaadallah/Razor/Pages/Shared/Uppgifter/QuoteInput.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFVwcGdpZnRlclxRdW90ZUlucHV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/moham/OneDrive/Skrivbord/ProjektB-MohammedSaadallah/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/moham/OneDrive/Skrivbord/ProjektB-MohammedSaadallah/Razor/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/moham/OneDrive/Skrivbord/ProjektB-MohammedSaadallah/Razor/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/moham/OneDrive/Skrivbord/ProjektB-MohammedSaadallah/Razor/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-k4x9mvvrh5
